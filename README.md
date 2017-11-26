@@ -3,10 +3,12 @@ C Library fit arbitrary length bitstrings
 
 ## structure definition
 
+```
 struct bitset {
 	unsigned int size;
 	unsigned char *bits;
 };
+```
 
 The `size` field says how many bits, and the `bits` field holds the actual bitstring as a series of characters.
 
